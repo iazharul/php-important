@@ -4,3 +4,6 @@ $fb = file_get_contents($url, false);
 
 //laravel date and time formate
  {{ date("d-m-Y || H:i A", strtotime($blog->created_at)) }}
+
+
+sudo service apache2 stop
